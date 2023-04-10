@@ -33,7 +33,7 @@
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./requirements.html" >Requirements</a>
                   <!-- <ul class="dropdown-menu">
                     <li class="nav-item"><a class="dropdown-item" href="#">Action</a></li>
-                  </ul> -->
+                  </ul> --> 
                 </li>
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./research.html">Research</a>
                   <!-- <ul class="dropdown-menu">
@@ -45,27 +45,27 @@
                     <li class="nav-item"><a class="dropdown-item" href="#">Action</a></li>
                   </ul> -->
                 </li>
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" >System Design</a>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./system-design.html" >System Design</a>
                   <!-- <ul class="dropdown-menu">
                     <li class="nav-item"><a class="dropdown-item" href="#">Action</a></li>
                   </ul> -->
                 </li>
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" >Implementation</a>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./implementation.html" >Implementation</a>
                   <!-- <ul class="dropdown-menu">
                     <li class="nav-item"><a class="dropdown-item" href="#">Action</a></li>
                   </ul> -->
                 </li>
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" >Testing</a>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./testing.html" >Testing</a>
                   <!-- <ul class="dropdown-menu">
                     <li class="nav-item"><a class="dropdown-item" href="#">Action</a></li>
                   </ul> -->
                 </li>
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" >Evaluation</a>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./evaluation.html" >Evaluation</a>
                   <!-- <ul class="dropdown-menu">
                     <li class="nav-item"><a class="dropdown-item" href="#">Action</a></li>
                   </ul> -->
                 </li>
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" >Appendix</a>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./appendix.html" >Appendix</a>
                   <!-- <ul class="dropdown-menu">
                     <li class="nav-item"><a class="dropdown-item" href="#">Action</a></li>
                   </ul> -->
@@ -184,7 +184,7 @@
             <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto">
               <h1 class="display-1 mb-3">Research</h1>
               <!-- TODO: Paraphrase this -->
-              <p class="lead fs-lg px-md-3 px-lg-7 px-xl-9 px-xxl-10">Our research informed us of the current state of MotionInput V3 in terms of codebase, and allowed us to analyse the current issues with the system and make a number of decisions for our project solution and updated requirements.</p>
+              <!-- <p class="lead fs-lg px-md-3 px-lg-7 px-xl-9 px-xxl-10">Our research informed us of the current state of MotionInput V3 in terms of codebase, and allowed us to analyse the current issues with the system and make a number of decisions for our project solution and updated requirements.</p> -->
               <!-- /nav -->
             </div>
             <!-- /column -->
@@ -201,10 +201,10 @@
             <nav id="sidebar-nav">
             <ul class="list-unstyled text-reset">
                 <li><a class="nav-link scroll active" href="#Nuitka">1. Nuitka</a></li>
-                <li><a class="nav-link scroll" href="#DLL">2. DLL</a></li>
-                <li><a class="nav-link scroll" href="#MFC">3. MFC</a></li>
+                <li><a class="nav-link scroll" href="#MFC">2. MFC</a></li>
+                <li><a class="nav-link scroll" href="#MotionInput">3. MotionInput</a></li>
                 <li><a class="nav-link scroll" href="#Managing-Github-Repo">4. Managing Github Repos</a></li>
-                <li><a class="nav-link scroll" href="#Submitting">5. Submitting to Microsoft Store, Steam, and Epic Games</a></li>
+                <li><a class="nav-link scroll" href="#Submitting">5. Submitting to Microsoft Store</a></li>
             </ul>
             </nav>
             <!-- /nav -->
@@ -217,55 +217,52 @@
             <div class="card">
             <div class="card-body p-10">
                 <h2 class="mb-3">1. Nuitka</h2>
-                <p>Nuitka is a Python compiler that takes Python code and transpiles it to C. Then Nuitka takes the C code and compiles it into an executable. This is in contrast to CPython, the default implementation of Python. CPython simply executes the code as it interprets it. Nuitka has various advantages over both raw C and CPython. It is faster than CPython and has the speed of C. It also has ease of use of Python, making it easier for new students to contribute to the project. However, Nuitka does have the disadvantage of having a more involved setup.</p>
-                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li><span><i class="uil uil-check"></i></span><span>Aenean eu leo quam ornare curabitur blandit tempus.</span></li>
-                <li><span><i class="uil uil-check"></i></span><span>Nullam quis risus eget urna mollis ornare donec elit.</span></li>
-                <li><span><i class="uil uil-check"></i></span><span>Etiam porta sem malesuada magna mollis euismod.</span></li>
-                <li><span><i class="uil uil-check"></i></span><span>Fermentum massa vivamus faucibus amet euismod.</span></li>
-                </ul>
+                <p>Nuitka is an open-source Python compiler that translates Python code into optimized C code, which can then be compiled into a binary executable. It is designed to generate high-performance binaries that can run on multiple platforms without requiring a Python interpreter to be installed on the target machine.</p>
+                <p>One of the main advantages of using Nuitka is that it can significantly improve the performance of Python code by generating optimized C code. This can result in faster execution times, reduced memory usage, and better performance overall. Additionally, since the compiled binary doesn't require a Python interpreter, it can be run on machines that don't have Python installed, which can be particularly useful for deploying Python applications on systems with limited resources or in production environments.</p>
+                <p>Another advantage of Nuitka is its compatibility with popular Python libraries and frameworks, such as NumPy, Pandas, and Django. Nuitka supports many of the standard Python features and syntax, as well as the most commonly used third-party libraries. This makes it easy to integrate Nuitka into existing Python projects and take advantage of its performance benefits without having to rewrite code from scratch.</p>
             </div>
             </div>
-        </section>
-        <section id="DLL" class="wrapper pt-16">
-            <div class="card">
-            <div class="card-body p-10">
-                <h2 class="mb-3">2. DLL</h2>
-                <p>A DLL (Dynamic Link Library) is a compiled module that contains functions for external programs to use. This is in contrast to a statically linked library, where all the compiled functions in the library are contained within the executable of the program using it.</p>
-                <p>When programming with a DLL over a statically linked library, it is easier to upgrade and fix bugs since one would just replace the DLL with a newer version. Additionally, using a DLL takes up less space. If two programs require the same DLL, only one DLL will actually be stored on the computer. In contrast, a statically linked library would have the library linked as part of the executable, so programs wouldn’t be able to share the library.</p>
-                <p>However, a DLL has a slower initialization, since the program has to load the DLL from the filesystem. Additionally, a missing DLL could lead to runtime errors in the program, but a statically linked library would guarantee that the library wouldn’t be missing.</p>
-            </div>
-            <!--/.card-body -->
-            </div>
-            <!--/.card -->
         </section>
         <section id="MFC" class="wrapper pt-16">
             <div class="card">
             <div class="card-body p-10">
-                <h2 class="mb-3">3. MFC</h2>
-                <p>Microsoft Foundation Class (MFC) is a C++ object-oriented wrapper library over Win32 for developing Windows desktop applications. It is used as an alternative to Win32 because Win32 API is very low-level. Compared to other higher-level frameworks, it is more clunky to use. Features that are easily available and easy to implement in higher-level frameworks like Qt or wxWidgets would take longer to implement in MFC. However, MFCs are essential to our work because they are backwards-compatible with previous versions of Windows. This is important in computers in governments and hospitals, because these computers are updated to new versions rarely for security reasons. MFCs are required by the NHS for any third-party programs.</p>
+                <h2 class="mb-3">2. MFC</h2>
+                <p>We started with reviewing the work of the previous cohort, by studying their MFCs and how they functioned we were able to learn how to build upon and improve the existing architecture. </p>
+                <img class="mb-4 rounded shadow-lg border" src="./assets/img/requirements-MFC-image.png" alt="" style="top: 20%;  max-width:100%; height: auto;">
+                <p>Microsoft Foundation Class (MFC) is a popular C++ object-oriented library used for developing desktop applications on the Windows operating system. MFC is a wrapper library that simplifies the use of the Win32 API by providing a more intuitive and high-level interface. Although MFC is not as streamlined as some higher-level frameworks like Qt or wxWidgets, it is essential in certain environments, such as government and healthcare institutions, where the priority is on backward compatibility and security. In fact, MFCs are required by the NHS for any third-party programs. Despite its perceived clunkiness, MFC remains a valuable tool for developers who need to create Windows desktop applications that are compatible with earlier versions of the operating system.</p>
+                <p>The previous version of the project had good functionality and legibility, but it lacked intuitiveness and accessibility. We received feedback from users that the tabbing order was inconsistent and out of order, which is a crucial feature for accessibility since some users rely on tabbing to navigate menus. To address this issue, we had to make changes to the MFCs used in the project to ensure that the tabbing order was consistent and logical. This required an understanding of how MFCs work and how to manipulate the information they process.</p>
+                <p>We also found that the design of the buttons needed improvement. The previous design was not intuitive and did not conform to industry standards. We used a trial and error approach to redesign the buttons, which involved several iterations. Through this process, we learned how to create a more intuitive design that conforms to industry standards while also being easily accessible. This involved not only improving the placement of the buttons but also their labelling to ensure that users can easily understand the functions they perform.</p>
+                <p>To gather information for these changes, we conducted surveys with users to identify pain points and areas of improvement. We also sought feedback from developers in our cohort, as our work was intended to provide workable templates that other teams could customise to meet their own needs. This feedback was essential to refining the design and creating templates that were flexible and easy to use.</p>
             </div>
             <!--/.card-body -->
             </div>
             <!--/.card -->
         </section>
+        <section id="MotionInput" class="wrapper pt-16">
+          <div class="card">
+          <div class="card-body p-10">
+              <h2 class="mb-3">3. MotionInput</h2>
+              <p>-</p>
+          </div>
+          <!--/.card-body -->
+          </div>
+          <!--/.card -->
+      </section>
         <section id="Managing-Github-Repo" class="wrapper pt-16">
             <div class="card">
             <div class="card-body p-10">
                 <h2 class="mb-3">4. Managing Github Repos</h2>
-                <p>For our GitHub repository, every individual team is making their own modifications with MFCs. This results in a mess of branches on our GitHub repository. Instead of different teams going in different directions, teams must coordinate and build off each others work.</p>
+                <p>-</p>
             </div>
             <!--/.card-body -->
             </div>
             <!--/.card -->
         </section>
-        <section id="Submitting" class="wrapper pt-16">
+        <section id="Submitting" class="wrapper pt-16 pb-16">
             <div class="card">
             <div class="card-body p-10">
-                <h2 class="mb-3">5. Submitting to Microsoft Store, Steam, and Epic Games</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                <p>Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <p class="mb-0">Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem.</p>
+                <h2 class="mb-3">5. Submitting to Microsoft Store</h2>
+                <p>-</p>
             </div>
             <!--/.card-body -->
             </div>
